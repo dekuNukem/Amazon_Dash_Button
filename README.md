@@ -13,11 +13,16 @@ The indented usage couldn't be simpler. However, the hardware inside is a lot mo
 * 1M Flash Memory
 * 128KB RAM
 
+### ADMP441 Digital Microphone
+
+* I2S interface
+
 ### RGB LED
 
+### SST25VF016B SPI Flash
 
-### ADMP441 Digital Microphone
-* I2S interface
+* 16Mb 
+
 
 
 
