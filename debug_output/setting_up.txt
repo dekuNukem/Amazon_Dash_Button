@@ -1,0 +1,210 @@
+
+
+Oft SW build on Oft Rev05 HW platform, custom version Mar  9 2015 19:50:48
+
+Registration failure=0
+RegGetFailure = 0
+DumpRTCRegs:  S=07000000 W=00000000 A=02020000 P=00000000 F=00000000 D=03000000 C=00000000 T=00000000
+
+kVersion: 90011920
+PWR flags: SB=0 LPWR=0 WWDG=0 IWDG=0 SFT=0 POR=1 PIN=1 BOR=1
+Getting time in RTC_Init: GetRTCDateTime: 2088657013 Thu Feb  1 00:01:57 1900
+
+MAC addr:tag = 0xbb len = 0x08 val = 10 ae 60 26 b6 56
+Serial:tag = 0xcc len = 0x12 val = 47 30 33 30 47 30 30 35 35 31 36 36 37 35 36 39
+
+Key:tag = 0xaa len = 0x16 val = 37 46 50 4f 4a 4d 59 50 43 34 52 4f 56 57 51 5a
+ 38 30 34 31
+
+post gBATTERYPercentage = (72%) [1577]
+VBAT = 1.577V (72%)
+BOOT BATTERY CHECK : 72%
+SEC_RetrToken returns bHaveRegToken 0
+iTOC_Pending_Rd = 0, iTOC_Next_Wr = 0Failed transactions = 0
+SyncTOC: rd 0x0; wr 0x0; tid 0x0; eod 0x110000
+while loile true loop gUpTimbegin while true loop gUpTimeLimit 32000
+**Configuring device
+
+
+Oft SW build on Oft Rev05 HW platform, custom version Mar  9 2015 19:50:48
+
+Registration failure=0
+RegGetFailure = 0
+DumpRTCRegs:  S=08000000 W=00000000 A=02020000 P=00000000 F=00000000 D=03000000 C=00000000 T=00000000
+
+kVersion: 90011920
+PWR flags: SB=0 LPWR=0 WWDG=0 IWDG=0 SFT=1 POR=0 PIN=1 BOR=0
+Getting time in RTC_Init: GetRTCDateTime: 2088657016 Thu Feb  1 00:02:00 1900
+
+MAC addr:tag = 0xbb len = 0x08 val = 10 ae 60 26 b6 56
+Serial:tag = 0xcc len = 0x12 val = 47 30 33 30 47 30 30 35 35 31 36 36 37 35 36 39
+
+Key:tag = 0xaa len = 0x16 val = 37 46 50 4f 4a 4d 59 50 43 34 52 4f 56 57 51 5a
+ 38 30 34 31
+
+post gBATTERYPercentage = (71%) [1571]
+VBAT = 1.571V (71%)
+BOOT BATTERY CHECK : 71%
+SEC_RetrToken returns bHaveRegToken 0
+Initialising NetX v5.4
+Creating Packet pools
+Starting Wiced v2.4.0-BETA11
+scan: 0
+scan: 1
+scan: 2
+scan: 3
+scan: 4
+scan: 5
+ssid: Fried Pickles; security: WPA2 MIXED PSK; bssid: cc03fa34c050; rssi: -81
+ssid: ; security: WPA2 AES PSK; bssid: ce03fa34c051; rssi: -81
+ssid: HOME-4712; security: WPA2 MIXED PSK; bssid: 14cfe25b4710; rssi: -68
+ssid: xfinitywifi; security: OPEN; bssid: 16cfe25b4710; rssi: -70
+ssid: Motorola; security: OPEN; bssid: 00904b86ed2f; rssi: -82
+ssid: ; security: WPA2 AES PSK; bssid: 12cfe25b4710; rssi: -69
+ssid: ; security: WPA2 AES PSK; bssid: 4632c8fa4501; rssi: -78
+ssid: xfinitywifi; security: OPEN; bssid: 4632c8fa4502; rssi: -79
+ssid: HOME-3701; security: WPA2 MIXED PSK; bssid: cc3540433701; rssi: -71
+ssid: ; security: WPA2 AES PSK; bssid: ce3540433702; rssi: -71
+ssid: xfinitywifi; security: OPEN; bssid: ce3540433703; rssi: -71
+ssid: ; security: WPA2 AES PSK; bssid: 5a238cae7e18; rssi: -72
+ssid: xfinitywifi; security: OPEN; bssid: 5a238cae7e19; rssi: -72
+ssid: Destiel 5ever; security: WPA2 MIXED PSK; bssid: 4432c8e39ee0; rssi: -82
+ssid: Wifly-GSX-4f; security: OPEN; bssid: 00066671eb4f; rssi: -42
+ssid: 2WIRE552; security: WPA2 MIXED PSK; bssid: b8e625daa351; rssi: -83
+ssid: xfinitywifi; security: OPEN; bssid: e63efc74ca40; rssi: -77
+ssid: HOME-CA42; security: WPA2 MIXED PSK; bssid: e83efc74ca40; rssi: -72
+ssid: TheDarkSide; security: WPA2 AES PSK; bssid: 60a44c8d1998; rssi: -72
+ssid: ; security: WPA2 AES PSK; bssid: e23efc74ca40; rssi: -74
+ssid: belkin.f38.guests; security: OPEN; bssid: ec1a599acf3b; rssi: -72
+ssid: EmWifi; security: WPA2 MIXED PSK; bssid: c0c1c0463f92; rssi: -47
+ssid: DekuNukem; security: WPA2 AES PSK; bssid: 20c9d01f3b5f; rssi: -43
+ssid: belkin.f38; security: WPA2 AES PSK; bssid: ec1a599acf38; rssi: -69
+ssid: Zoom5982; security: WPA2 MIXED PSK; bssid: 001c7bf88b94; rssi: -73
+ssid: DPST19; security: WPA2 AES PSK; bssid: 08863be37dec; rssi: -64
+ssid: MP; security: WPA2 AES PSK; bssid: e4d3323321e0; rssi: -57
+ssid: octopussy; security: WPA2 MIXED PSK; bssid: 48f8b3716236; rssi: -71
+ssid: belkin.3b99; security: WPA2 AES PSK; bssid: 944452b7bb09; rssi: -76
+ssid: RukBiE; security: WPA2 AES PSK; bssid: e091f5b16562; rssi: -80
+ssid: TP-LINK_631FF8; security: WPA2 AES PSK; bssid: e8de27631ff8; rssi: -66
+SCAN PRINTING COMPLETE 31
+Stapare the HTTP server
+.
+prepare the HTTP server
+DMA overrun
+DMA overrun
+Found chirp at index 287
+DMA overrun
+Equalize: 16 17041 12454 4307 
+IPv4 network ready IP: 192.168.0.1
+Fairt HTTPS server
+.index 0
+
+Start HTTPS server
+server start succeeded
+redirect succeeded
+wait for config to complete
+Done waiting
+Client connected; timeout extended in 'process_connect()'
+Client connected; timeout extended in 'process_connect()'
+Registration failure=0
+Client connected; timeout extended in 'process_connect()'
+**** incoming...; length: 126
+000: 76 61 6c 75 65 3d 70 25 33 43 25 32 36 25 32 34 value=p%3C%26%24
+010: 0a 48 54 54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a .HTTP/1.1..Host:
+020: 20 31 39 32 2e 31 36 38 2e 30 2e 31 0d 0a 43 6f  192.168.0.1..Co
+030: 6e 6e 65 63 74 69 6f 6e 3a 20 4b 65 65 70 2d 41 nnection: Keep-A
+040: 6c 69 76 65 0d 0a 55 73 65 72 2d 41 67 65 6e 74 live..User-Agent
+050: 3a 20 41 70 61 63 68 65 2d 48 74 74 70 43 6c 69 : Apache-HttpCli
+060: 65 6e 74 2f 55 4e 41 56 41 49 4c 41 42 4c 45 20 ent/UNAVAILABLE 
+070: 28 6a 61 76 61 20 31 2e 34 29 0d 0a 0d 0a (java 1.4)....
+**** regtoken...; length: 4
+000: 70 3c 26 24 p<&$
+
+XFlash_SectorErase: a>1d0000
+Client connected; timeout extended in 'process_connect()'
+Client connected; timeout extended in 'process_connect()'
+Bailing to app...
+
+pwlen=10
+
+
+Oft SW build on Oft Rev05 HW platform, custom version Mar  9 2015 19:50:48
+
+Registration failure=0
+RegGetFailure = 0
+DumpRTCRegs:  S=09000000 W=00000000 A=03030101 P=01010000 F=00000000 D=03000000 C=00000000 T=00000000
+
+kVersion: 90011920
+PWR flags: SB=0 LPWR=0 WWDG=0 IWDG=0 SFT=1 POR=0 PIN=1 BOR=0
+Getting time in RTC_Init: GetRTCDateTime: 2088657070 Thu Feb  1 00:02:54 1900
+
+MAC addr:tag = 0xbb len = 0x08 val = 10 ae 60 26 b6 56
+Serial:tag = 0xcc len = 0x12 val = 47 30 33 30 47 30 30 35 35 31 36 36 37 35 36 39
+
+Key:tag = 0xaa len = 0x16 val = 37 46 50 4f 4a 4d 59 50 43 34 52 4f 56 57 51 5a
+ 38 30 34 31
+
+post gBATTERYPercentage = (59%) [1479]
+VBAT = 1.479V (59%)
+BOOT BATTERY CHECK : 59%
+SEC_RetrToken returns bHaveRegToken 1
+Got stored token from server: p<&$
+Initialising NetX v5.4
+Creating Packet pools
+Starting Wiced v2.4.0-BETA11
+
+WIFI_Thread
+Error 4294967295 in wiced_tls_init_root_ca_certificates
+Waiting for net needed, no clear
+*Joining : DekuNukem
+Successfully joined : DekuNukem
+Obtaining IPv4 address via DHCP
+NX_DHCP_STATE_SELECTING: Waiting for a response from any DHCP server
+NX_DHCP_STATE_REQUESTING: DHCP Server identified, IP address request sent
+NX_4 network ready IP: 192.168.191.125
+se established
+IPv4 network ready IP: 192.168.191.125
+NETWORK UP took 4631ms
+Network established time: 4633ms
+Resolving IP address of parker-gateway-na.amazon.com
+Server is at 54.239.16.123
+while loop in TRANS_Thread
+Sending regtoken
+
+
+
+sending registration code p<&$
+GenerateHeader: Parm1 = /2/r/oft , Parm2 = ä0
+Tx 1.22
+Tx 2.4
+Tx 3.14
+Tx 4.0
+HTTP Status: 200
+regrsp:  dtH 0  dtL 9f1b5555
+Setting time in HTTP_SendRegCode: RIO_SetRTCDateTime: 0x55551b9f = 1431640991 = Thu May 14 22:03:11 2015
+
+SHA1 Key: 99 87 9a 09 12 d0 5d 89 d2 b2 20 24 54 1e 20 7b 63 82 67 52 
+flags: 00 00 
+
+gUpdateFirmwareFlag = 0
+
+XFlash_SectorErase: a>1d0000
+iTOC_Pending_Rd = 0, iTOC_Next_Wr = 0Failed transactions = 0
+SyncTOC: rd 0x0; wr 0x0; tid 0x0; eod 0x110000
+SendRegToken success
+endof TRANS_Thread loop
+LogMsgSendString: sending log msg (RSSI=-24dBm(5TBB), SNR=0, cspec=11019, sec=400004,RTT=0ms)
+begin while true loop gUpTimeLimit 42000
+LogMsgSendString: disconnecting rx_result=2, total_length=107
+iTOC_Pending_Rd = 0, iTOC_Next_Wr = 0Failed transactions = 0
+fgh: [TRANS] calling LogMsgSendStatus
+LogMsgSendString: sending log msg (Status Bitfield: 0x00000040)
+LogMsgSendString: disconnecting rx_result=2, total_length=107
+LogMsgSendString: sending log msg ( S=0a000000 W=01010000 A=03030101 P=01010000 F=01000000 D=03000000 C=00000000 T=00000000)
+LogMsgSendString: disconnecting rx_result=2, total_length=107
+Transaction and logging complete...
+shutdown called
+Failed transactions = 0
+iTOC_Pending_Rd = 0, iTOC_Next_Wr = 0Failed transactions = 0
+Turning off power via latch switch
+

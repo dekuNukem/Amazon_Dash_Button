@@ -1,0 +1,80 @@
+
+
+Oft SW build on Oft Rev05 HW platform, custom version Mar  9 2015 19:50:48
+
+Registration failure=1
+RegGetFailure = 1
+DumpRTCRegs:  S=0a000000 W=01010000 A=03030101 P=01010000 F=01000000 D=04000000 C=00000000 T=00000000
+
+kVersion: 90011920
+PWR flags: SB=0 LPWR=0 WWDG=0 IWDG=0 SFT=0 POR=1 PIN=1 BOR=1
+Getting time in RTC_Init: GetRTCDateTime: 1431640995 Thu May 14 22:03:15 2015
+
+MAC addr:tag = 0xbb len = 0x08 val = 10 ae 60 26 b6 56
+Serial:tag = 0xcc len = 0x12 val = 47 30 33 30 47 30 30 35 35 31 36 36 37 35 36 39
+
+Key:tag = 0xaa len = 0x16 val = 37 46 50 4f 4a 4d 59 50 43 34 52 4f 56 57 51 5a
+ 38 30 34 31
+
+post gBATTERYPercentage = (75%) [1603]
+VBAT = 1.603V (75%)
+BOOT BATTERY CHECK : 75%
+SEC_RetrToken returns bHaveRegToken 1
+iTOC_Pending_Rd = 0, iTOC_Next_Wr = 0Failed transactions = 0
+SyncTOC: rd 0x0; wr 0x0; tid 0x0; eod 0x110000
+Initialising NetX v5.4
+begin while true loop gUpTimeLimit 32000
+Creating Packet pools
+Starting Wiced v2.4.0-BETA11
+**Button Press: placing order 1
+[FILE] Creating file with header address 0x110000
+GetRTCDateTime: 1431640995 Thu May 14 22:03:15 2015
+
+Battery level: 75TRANS_AppendPage
+Create to close duration=14
+
+WIFI_Thread
+Error 4294967295 in wiced_tls_init_root_ca_certificates
+Waiting for net needed, no clear
+*Joining : DekuNukem
+Successfully joined : DekuNukem
+Obtaining IPv4 address via DHCP
+NX_DHCP_STATE_SELECTING: Waiting for a response from any DHCP server
+NX_DHCP_STATE_REQUESTING: DHCP Server identified, IP address request sent
+NX_4 network ready IP: 192.168.191.125
+se established
+IPv4 network ready IP: 192.168.191.125
+NETWORK UP took 3222ms
+Network established time: 3224ms
+Resolving IP address of parker-gateway-na.amazon.com
+Server is at 176.32.103.77
+while loop in TRANS_Thread
+Transaction 0 is ready ... status: f0
+shTransaction ID: 1
+
+HTTP send transaction attempt 1
+wiced_tcp_connect OK
+GenerateHeader: Parm1 = /2/b , Parm2 = ä0
+Tx 1.22
+Tx 2.1
+Tx 3.14
+Tx 4.0
+HTTP Status: 200
+Setting time in HTTP_SendTransFromFile: RIO_SetRTCDateTime: 0x55551cbd = 1431641277 = Thu May 14 22:07:57 2015
+
+
+gUpdateFirmwareFlag = 0
+SendTransaction succeeded
+endof TRANS_Thread loop
+LogMsgSendString: sending log msg (RSSI=-16dBm(5TBB), SNR=0, cspec=11019, sec=400004,RTT=2489ms)
+LogMsgSendString: disconnecting rx_result=2, total_length=107
+iTOC_Pending_Rd = 1, iTOC_Next_Wr = 1Failed transactions = 0
+fgh: [TRANS] calling LogMsgSendStatus
+LogMsgSendString: sending log msg ( S=0b000000 W=02020000 A=03030101 P=01010000 F=01000000 D=04000000 C=00000000 T=00000000)
+LogMsgSendString: disconnecting rx_result=2, total_length=107
+Transaction and logging complete...
+shutdown called
+Failed transactions = 0
+iTOC_Pending_Rd = 1, iTOC_Next_Wr = 1Failed transactions = 0
+Turning off power via latch switch
+

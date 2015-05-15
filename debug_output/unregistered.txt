@@ -1,0 +1,31 @@
+
+
+Oft SW build on Oft Rev05 HW platform, custom version Mar  9 2015 19:50:48
+
+Registration failure=1
+RegGetFailure = 1
+DumpRTCRegs:  S=0c000001 W=03030000 A=03030101 P=01010000 F=01000000 D=06000000 C=00000000 T=00000000
+
+kVersion: 90011920
+PWR flags: SB=0 LPWR=0 WWDG=0 IWDG=0 SFT=0 POR=1 PIN=1 BOR=1
+Getting time in RTC_Init: GetRTCDateTime: 1431641295 Thu May 14 22:08:15 2015
+
+MAC addr:tag = 0xbb len = 0x08 val = 10 ae 60 26 b6 56
+Serial:tag = 0xcc len = 0x12 val = 47 30 33 30 47 30 30 35 35 31 36 36 37 35 36 39
+
+Key:tag = 0xaa len = 0x16 val = 37 46 50 4f 4a 4d 59 50 43 34 52 4f 56 57 51 5a
+ 38 30 34 31
+
+post gBATTERYPercentage = (71%) [1572]
+VBAT = 1.572V (71%)
+BOOT BATTERY CHECK : 71%
+SEC_RetrToken returns bHaveRegToken 0
+iTOC_Pending_Rd = 0, iTOC_Next_Wr = 0Failed transactions = 0
+SyncTOC: rd 0x0; wr 0x0; tid 0x0; eod 0x110000
+while loile true loop gUpTimbegin while true loop gUpTimeLimit 32000
+**Device not registered
+shutdown called
+Failed transactions = 0
+iTOC_Pending_Rd = 0, iTOC_Next_Wr = 0Failed transactions = 0
+Turning off power via latch switch
+
