@@ -6,8 +6,9 @@ The indented usage couldn't be simpler. However, the hardware inside is a lot mo
 
 #Specs:
 
-###Microcontroller: 
+### STM32F205RG6 microcontroller: 
 
-* STM32F205RG6
+* Cortex M3
+* 120MHz
 * 1M Flash Memory
 * 128KB RAM
