@@ -25,4 +25,4 @@ This project documents the technical details of Amazon Dash Button for those who
 
 ##Pinouts and Roll-Your-Own
 
-For Pinouts see: [This PDF](Pinouts_and_Components.pdf)
+For Pinouts see: [This PDF](Pinouts_and_Components.pdf), I will add more details as I go on.
