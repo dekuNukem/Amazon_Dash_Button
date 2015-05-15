@@ -25,3 +25,4 @@ This project documents the technical details of Amazon Dash Button for those who
 
 ##Pinouts and Roll-Your-Own
 
+For Pinouts see: https://github.com/dekuNukem/Amazon_Dash_Button/blob/master/Pinout_and_coponents.pdf
