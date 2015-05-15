@@ -17,13 +17,12 @@ The indented usage couldn't be simpler. However, the hardware inside is a lot mo
 
 * I2S interface
 
-#### RGB LED
-
 #### SST25VF016B SPI Flash
 
 * 16Mb 
 
-
 #### Broadcom WICED WI-FI module
 
 * Likely derived from BCM943362WCD4
+
+#### RGB LED
