@@ -24,8 +24,7 @@ The indented usage couldn't be simpler. However, the hardware inside is a lot mo
 #### Broadcom WICED WI-FI module
 
 * Likely BCM943362
-* 2.4 GHz 802.11 b/g/n
-* SDIO
+* Single-Chip IEEE 802.11 b/g/n MAC/Baseband/Radio + SDIO
 
 #### RGB LED
 
