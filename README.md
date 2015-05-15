@@ -27,4 +27,4 @@ The indented usage couldn't be simpler. However, the hardware inside is a lot mo
 
 #### RGB LED
 
-#### AAA battery powered
+#### Powered by one AAA battery
