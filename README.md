@@ -4,11 +4,16 @@ The Dash Button is a device that allows customers to re-order items from Amazon 
 
 The indented usage couldn't be simpler. However, the hardware inside is a lot more powerful than its price suggests. So in the past few days I've been exploring and documenting the technical details of this device, which will be updated here as I go on.
 
-#Specs:
+##Specs:
 
-### Microcontroller: STM32F205RG6
+#### STM32F205RG6 Microcontroller
 
 * Cortex M3
 * 120MHz
 * 1M Flash Memory
 * 128KB RAM
+
+### RGB LED
+
+
+### Digital ADMP441
