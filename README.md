@@ -7,3 +7,7 @@ The indented usage couldn't be simpler. However, the hardware inside is a lot mo
 #Specs:
 
 ###Microcontroller: 
+
+* STM32F205RG6
+* 1M Flash Memory
+* 128KB RAM
