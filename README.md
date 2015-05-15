@@ -16,4 +16,8 @@ The indented usage couldn't be simpler. However, the hardware inside is a lot mo
 ### RGB LED
 
 
-### Digital ADMP441
+### ADMP441 Digital Microphone
+* I2S interface
+
+
+
