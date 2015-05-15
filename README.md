@@ -26,3 +26,5 @@ The indented usage couldn't be simpler. However, the hardware inside is a lot mo
 * Likely derived from BCM943362WCD4
 
 #### RGB LED
+
+#### AAA battery powered
