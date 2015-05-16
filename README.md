@@ -1,3 +1,5 @@
+![alt text](http://i.imgur.com/AXVI86K.jpg)
+
 This project documents the technical details of Amazon Dash Button for those who want to tap into the potential of this inexpensive yet powerful IoT device.
 
 ##Specs:
