@@ -25,6 +25,6 @@ This project documents the technical details of Amazon Dash Button for those who
 
 ##Pinouts and Roll-Your-Own
 
-For pinouts see [This PDF](Pinouts_and_Components.pdf), I update as I go on.
+For pinouts see [This PDF](Pinouts_and_Components.pdf), I will update as I go on.
 
 Connect SWDIO and SWDCLK to your favourite Programmer to upload your own program into the Dash Button, details coming soon.
