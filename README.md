@@ -25,8 +25,12 @@ This project documents the technical details of Amazon Dash Button for those who
 
 #### RGB LED
 
-##Pinouts
+##Pinout
 
 For pinouts see [This PDF](Pinouts_and_Components.pdf).
 
-Connect SWDIO and SWDCLK to your favourite programmer to upload your own program into the Dash Button.
+##Programming
+
+Connect SWDIO and SWDCLK to your favourite programmer to upload your own program into the Dash Button, I used the built-in ST-Link 2 on a STM32F0 Discovery board.
+
+![alt text](http://i.imgur.com/hVwJHi3.jpg)
