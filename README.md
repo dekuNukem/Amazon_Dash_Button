@@ -34,8 +34,10 @@ See [This PDF](Pinouts_and_Components.pdf).
 
 Connect SWDIO and SWDCLK to your favourite programmer to upload your own program into the Dash Button, I used the built-in ST-Link 2 on a STM32F0 Discovery board.
 
+I use Coocox IDE since it's free, a simple Blink project that blinks the RGB LED is provided.
+
 ![alt text](http://i.imgur.com/hVwJHi3.jpg)
 
 ##Flash Dump and Debug Output
 
-The 1M flash memory dump is 
+See their respective folders
