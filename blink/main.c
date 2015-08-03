@@ -2,19 +2,7 @@
 
 void SystemClock_Config(void);
 void MX_GPIO_Init(void);
-
-void blink()
-{
-    while(1)
-    {
-        HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_8);
-        HAL_Delay(333);
-        HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_7);
-        HAL_Delay(333);
-        HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_6);
-        HAL_Delay(333);
-    }
-}
+void blink();
 
 int main(void) 
 {
@@ -28,6 +16,18 @@ int main(void)
     blink();
 }
 
+void blink()
+{
+    while(1)
+    {
+        HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_8);
+        HAL_Delay(333);
+        HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_7);
+        HAL_Delay(333);
+        HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_6);
+        HAL_Delay(333);
+    }
+}
 
 void SystemClock_Config(void)
 {
