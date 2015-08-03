@@ -25,7 +25,7 @@ This project documents the technical details of Amazon Dash Button for those who
 
 #### RGB LED
 
-##Pinouts and Roll-Your-Own
+##Pinouts
 
 For pinouts see [This PDF](Pinouts_and_Components.pdf).
 
