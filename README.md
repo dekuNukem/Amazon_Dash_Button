@@ -27,7 +27,7 @@ This project documents the technical details of Amazon Dash Button for those who
 
 ##Pinout
 
-For pinouts see [This PDF](Pinouts_and_Components.pdf).
+See [This PDF](Pinouts_and_Components.pdf).
 
 ##Programming
 
