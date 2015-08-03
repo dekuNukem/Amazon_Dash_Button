@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F207IG -DSTM32F207xx -I..\..\..\..\..\Dropbox\projects\disco\ADB_git\blink -I..\..\..\..\..\Dropbox\projects\disco\ADB_git -I..\..\..\..\..\Dropbox\projects\disco\ADB_git\blink\cmsis_boot\Include -I..\..\..\..\..\Dropbox\projects\disco\ADB_git\blink\STM32F2xx_HAL_Driver -I..\..\..\..\..\Dropbox\projects\disco\ADB_git\blink\cmsis_boot -I..\..\..\..\..\Dropbox\projects\disco\ADB_git\blink\cmsis -I..\..\..\..\..\Dropbox\projects\disco\ADB_git\blink\STM32F2xx_HAL_Driver\Inc">
+      <target file="stm32f2xx_hal_sd.o" lastModified="14ef2b5972a">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_sd.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_sram.o" lastModified="14ef2b58db9">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_sram.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_pwr_ex.o" lastModified="14ef2b58c92">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_pwr_ex.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_dma.o" lastModified="14ef2b596da">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_dma.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_adc_ex.o" lastModified="14ef2b5937d">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_adc_ex.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_msp_template.o" lastModified="14ef2b58f78">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_msp_template.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_crc.o" lastModified="14ef2b58d69">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_crc.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_nor.o" lastModified="14ef2b592d6">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_nor.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_i2c.o" lastModified="14ef2b5840d">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_i2c.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_spi.o" lastModified="14ef2b5839a">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_spi.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_cortex.o" lastModified="14ef2b589c0">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_cortex.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_cryp.o" lastModified="14ef2b58555">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_cryp.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_ll_sdmmc.o" lastModified="14ef2b58f16">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_ll_sdmmc.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_dma_ex.o" lastModified="14ef2b593d6">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_dma_ex.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_dac_ex.o" lastModified="14ef2b58bdb">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_dac_ex.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_pcd.o" lastModified="14ef2b5912f">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_pcd.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_pccard.o" lastModified="14ef2b58506">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_pccard.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_i2s.o" lastModified="14ef2b590c2">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_i2s.c" lastModified="14d6350ac88"/>
+      </target>
+      <target file="stm32f2xx_hal_rcc_ex.o" lastModified="14ef2b58814">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_rcc_ex.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_iwdg.o" lastModified="14ef2b59465">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_iwdg.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_smartcard.o" lastModified="14ef2b58782">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_smartcard.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_gpio.o" lastModified="14ef2b586f3">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_gpio.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_rtc_ex.o" lastModified="14ef2b58605">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_rtc_ex.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="system_stm32f2xx.o" lastModified="14ef2b59212">
+         <source file="..\..\..\cmsis_boot\Include\system_stm32f2xx.c" lastModified="14d5cdce510"/>
+      </target>
+      <target file="stm32f2xx_hal_nand.o" lastModified="14ef2b58d29">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_nand.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_irda.o" lastModified="14ef2b588d6">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_irda.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_hcd.o" lastModified="14ef2b5941c">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_hcd.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal.o" lastModified="14ef2b594c1">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="startup_stm32f207xx.o" lastModified="14ef2b585b3">
+         <source file="..\..\..\cmsis_boot\startup_stm32f207xx.S" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_flash_ex.o" lastModified="14ef2b58e29">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_flash_ex.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_wwdg.o" lastModified="14ef2b5927a">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_wwdg.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_tim.o" lastModified="14ef2b5886c">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_tim.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_tim_ex.o" lastModified="14ef2b58ce7">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_tim_ex.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_usart.o" lastModified="14ef2b58943">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_usart.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_dcmi.o" lastModified="14ef2b59814">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_dcmi.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_eth.o" lastModified="14ef2b58598">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_eth.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_uart.o" lastModified="14ef2b59789">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_uart.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_ll_usb.o" lastModified="14ef2b59198">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_ll_usb.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_rtc.o" lastModified="14ef2b58660">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_rtc.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_ll_fsmc.o" lastModified="14ef2b5933f">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_ll_fsmc.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_rcc.o" lastModified="14ef2b58eb9">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_rcc.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="main.o" lastModified="14ef2b58a19">
+         <source file="..\..\..\main.c" lastModified="14ef2b16588"/>
+      </target>
+      <target file="stm32f2xx_hal_dac.o" lastModified="14ef2b58c36">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_dac.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_can.o" lastModified="14ef2b58b74">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_can.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_pwr.o" lastModified="14ef2b58b06">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_pwr.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_flash.o" lastModified="14ef2b58a96">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_flash.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_rng.o" lastModified="14ef2b5848e">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_rng.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_adc.o" lastModified="14ef2b59065">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_adc.c" lastModified="14d5d1cd828"/>
+      </target>
+      <target file="stm32f2xx_hal_hash.o" lastModified="14ef2b58fd4">
+         <source file="..\..\..\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_hash.c" lastModified="14d5d1cd828"/>
+      </target>
+   </processor>
+</history>

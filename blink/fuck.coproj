@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project version="2G - 1.7.8" name="fuck">
+  <Target name="fuck" isCurrent="1">
+    <Device manufacturerId="9" manufacturerName="ST" chipId="827" chipName="STM32F207IG" boardId="" boardName=""/>
+    <BuildOption>
+      <Compile>
+        <Option name="OptimizationLevel" value="0"/>
+        <Option name="UseFPU" value="0"/>
+        <Option name="UserEditCompiler" value=""/>
+        <Option name="SupportCPlusplus" value="0"/>
+        <Includepaths>
+          <Includepath path="."/>
+        </Includepaths>
+        <DefinedSymbols>
+          <Define name="STM32F207IG"/>
+          <Define name="STM32F207xx"/>
+        </DefinedSymbols>
+      </Compile>
+      <Link useDefault="0">
+        <Option name="DiscardUnusedSection" value="0"/>
+        <Option name="UserEditLinkder" value=""/>
+        <Option name="UseMemoryLayout" value="1"/>
+        <Option name="nostartfiles" value="1"/>
+        <Option name="LTO" value="0"/>
+        <Option name="IsNewStartupCode" value="1"/>
+        <Option name="Library" value="Not use C Library"/>
+        <LinkedLibraries/>
+        <MemoryAreas debugInFlashNotRAM="1">
+          <Memory name="IROM1" type="ReadOnly" size="0x00100000" startValue="0x08000000"/>
+          <Memory name="IRAM1" type="ReadWrite" size="0x00020000" startValue="0x20000000"/>
+          <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
+          <Memory name="IRAM2" type="ReadWrite" size="" startValue=""/>
+        </MemoryAreas>
+        <LocateLinkFile path="../../../../../coocox/coide/configuration/programdata/fuck/arm-gcc-link.ld" type="0"/>
+      </Link>
+      <Output>
+        <Option name="OutputFileType" value="0"/>
+        <Option name="Path" value="./"/>
+        <Option name="Name" value="fuck"/>
+        <Option name="HEX" value="1"/>
+        <Option name="BIN" value="1"/>
+      </Output>
+      <User>
+        <UserRun name="Run#1" type="Before" checked="0" value=""/>
+        <UserRun name="Run#1" type="After" checked="0" value=""/>
+      </User>
+    </BuildOption>
+    <DebugOption>
+      <Option name="org.coocox.codebugger.gdbjtag.core.adapter" value="ST-Link"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.debugMode" value="SWD"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.clockDiv" value="1M"/>
+      <Option name="org.coocox.codebugger.gdbjtag.corerunToMain" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkgdbserver" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.userDefineGDBScript" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.targetEndianess" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkResetMode" value="Type 0: Normal"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.resetMode" value="SYSRESETREQ"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifSemihost" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifCacheRom" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ipAddress" value="127.0.0.1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.portNumber" value="2009"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="STM32F2xx_1024.elf"/>
+    </DebugOption>
+    <ExcludeFile/>
+  </Target>
+  <Components path="./">
+    <Component id="31" name="Retarget printf" path="" type="2"/>
+    <Component id="33" name="Semihosting" path="" type="2"/>
+    <Component id="50" name="CMSIS core" path="" type="2"/>
+    <Component id="2085" name="STM32Cube_FW_F2_V1.1.0" path="" type="2"/>
+  </Components>
+  <Files>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_dma.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_dma.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_sd.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_sd.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_smartcard.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_smartcard.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc.c" type="1"/>
+    <File name="cmsis/core_cmFunc.h" path="cmsis/core_cmFunc.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_eth.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_eth.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hcd.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hcd.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac_ex.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac_ex.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dcmi.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_usart.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_usart.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_spi.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_spi.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash_ex.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash_ex.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_wwdg.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_wwdg.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_ll_usb.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_ll_usb.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_tim.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_tim.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr_ex.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr_ex.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_dac.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_dac.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_i2s.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_i2s.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_i2c.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_i2c.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nand.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nand.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_hcd.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_hcd.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim_ex.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim_ex.c" type="1"/>
+    <File name="cmsis_boot/Include" path="" type="2"/>
+    <File name="cmsis/core_cmInstr.h" path="cmsis/core_cmInstr.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_rcc_ex.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_rcc_ex.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_crc.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_crc.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_flash_ex.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_flash_ex.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_cortex.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_cortex.h" type="1"/>
+    <File name="cmsis" path="" type="2"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_ll_fsmc.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_ll_fsmc.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_uart.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_uart.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_pcd.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_pcd.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_usart.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_usart.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rng.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rng.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_eth.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_eth.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc.c" type="1"/>
+    <File name="cmsis_boot/Include/system_stm32f2xx.c" path="cmsis_boot/Include/system_stm32f2xx.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hash.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hash.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc" path="" type="2"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cryp.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cryp.c" type="1"/>
+    <File name="cmsis_boot/Include/stm32f217xx.h" path="cmsis_boot/Include/stm32f217xx.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_dac_ex.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_dac_ex.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_pwr_ex.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_pwr_ex.h" type="1"/>
+    <File name="main.c" path="main.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_crc.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_crc.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_smartcard.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_smartcard.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_pwr.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_pwr.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_tim_ex.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_tim_ex.h" type="1"/>
+    <File name="cmsis_boot" path="" type="2"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_nor.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_nor.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src" path="" type="2"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_can.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_can.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_sram.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_sram.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_conf.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_conf.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_irda.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_irda.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_msp_template.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_msp_template.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2c.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2c.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_wwdg.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_wwdg.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_flash.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_flash.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_def.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_def.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_adc_ex.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_adc_ex.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2s.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_i2s.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_rcc.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_rcc.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_uart.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_uart.c" type="1"/>
+    <File name="cmsis_boot/Include/system_stm32f2xx.h" path="cmsis_boot/Include/system_stm32f2xx.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma_ex.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma_ex.c" type="1"/>
+    <File name="cmsis_boot/startup_stm32f207xx.S" path="cmsis_boot/startup_stm32f207xx.S" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_iwdg.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_iwdg.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_dcmi.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_dcmi.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sram.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sram.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_ll_sdmmc.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_ll_sdmmc.h" type="1"/>
+    <File name="cmsis_boot/Include/stm32f205xx.h" path="cmsis_boot/Include/stm32f205xx.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver" path="" type="2"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usb.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usb.c" type="1"/>
+    <File name="cmsis_boot/Include/stm32f215xx.h" path="cmsis_boot/Include/stm32f215xx.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_cryp.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_cryp.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_adc.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_adc.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nor.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_nor.c" type="1"/>
+    <File name="cmsis_boot/Include/stm32f207xx.h" path="cmsis_boot/Include/stm32f207xx.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_fsmc.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_fsmc.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim.c" type="1"/>
+    <File name="cmsis/core_cm3.h" path="cmsis/core_cm3.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc_ex.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rtc_ex.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_gpio.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_gpio.h" type="1"/>
+    <File name="cmsis_boot/Include/stm32f2xx.h" path="cmsis_boot/Include/stm32f2xx.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pccard.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pccard.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cortex.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cortex.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_irda.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_irda.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_gpio.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_gpio.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_nand.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_nand.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_dma_ex.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_dma_ex.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dac.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_hash.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_hash.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_rtc.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_rtc.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_rng.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_rng.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_rtc_ex.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_rtc_ex.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_pccard.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_pccard.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sd.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sd.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc_ex.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_adc_ex.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_can.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_can.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc_ex.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc_ex.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_sdmmc.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_sdmmc.c" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_gpio_ex.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_gpio_ex.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_iwdg.h" path="STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_iwdg.h" type="1"/>
+    <File name="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_spi.c" path="STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_spi.c" type="1"/>
+  </Files>
+</Project>
