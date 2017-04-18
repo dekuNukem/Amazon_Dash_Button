@@ -2,7 +2,7 @@
 
 This project documents the technical details of Amazon Dash Button for those who want to tap into the potential of this inexpensive yet powerful IoT device.
 
-##Specs:
+## Specs:
 
 #### STM32F205RG6 Microcontroller
 
@@ -26,11 +26,11 @@ This project documents the technical details of Amazon Dash Button for those who
 * Single-Chip IEEE 802.11 b/g/n MAC/Baseband/Radio + SDIO
 
 
-##Pinout
+## Pinout
 
 See [This PDF](Pinouts_and_Components.pdf).
 
-##Programming
+## Programming
 
 Connect SWDIO and SWDCLK to your favourite programmer to upload your own program into the Dash Button, I used the built-in ST-Link 2 on a STM32F0 Discovery board.
 
@@ -38,6 +38,6 @@ I use Coocox IDE since it's free, a simple Blink project that blinks the RGB LED
 
 ![alt text](http://i.imgur.com/hVwJHi3.jpg)
 
-##Flash Dump and Debug Output
+## Flash Dump and Debug Output
 
 See their respective folders
